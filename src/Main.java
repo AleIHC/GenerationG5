@@ -8,10 +8,10 @@ public class Main {
         //Este es un comentario de línea
         /*
         * Este es un comentario de bloque
-        */
+
         System.out.println("Celular");//El siguiente es el símil de el console.log();
         System.out.println("Una segunda impresión en consola");
-
+        /*
         /*Variables y tipos de datos*/
 
         //Datos de tipo primitivo: int, boolean, long, char
@@ -30,6 +30,7 @@ public class Main {
         Double doubleObjeto = 0.1231;
         Float flotanteObjeto =  doubleObjeto.floatValue();
 
+        /**
         //Datos de Firulais
         String nombreMascota = "Firulais";
         Integer edadMascota = 10;
@@ -43,7 +44,7 @@ public class Main {
         System.out.println("Por favor ingrese el sexo de la mascota");
         String sexo = sc.nextLine();//Guardamos lo que ingresa la persona en la variable sexo
 
-        //Datos de la mascota
+
         System.out.println("******************************************");
         System.out.println("Los datos de la mascota son los siguientes:");
         System.out.println("Su nombre es: " + nombreMascota);
@@ -51,6 +52,20 @@ public class Main {
         System.out.println("Su sexo es: " + sexo);
 
         sc.close();//Cerrar scanner
+        **/
+
+        //Ejemplo de casteo
+        char myChar = 127;
+        double myDouble = (double) myChar;
+        System.out.println(myDouble);
+
+        /*********16-05********/
+
+
+
+
+
+
 
         //ArrayList
         ArrayList<String> listaNombresDeMascotas = new ArrayList<>();
@@ -59,4 +74,5 @@ public class Main {
 
 
     }
+
 }
