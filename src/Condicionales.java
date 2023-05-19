@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Condicionales {
@@ -35,6 +36,7 @@ public class Condicionales {
         System.out.println("El promedio del estudiante es = " + promedio);
         boolean estudianteAprobo = (promedio >= notaAprobatoria);
         System.out.println("El estado de aprobación del estudiante es: " + estudianteAprobo);
+
 
         //Condicional que toma la variable
         if (estudianteAprobo) {
@@ -139,5 +141,6 @@ public class Condicionales {
                 System.out.println("En esta ocasión no ganaste nada, pero suerte para la próxima");
                 break;
         }
+
     }
 }
